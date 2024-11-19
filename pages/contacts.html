@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Кулінарія</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <nav id="top">
+        <ul>
+            <li><a href="../index.html">Головна</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="articles.html">Рецепти</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="anchors.html">Якорі</a></li>
+        </ul>
+    </nav>
+  
+    <div>
+        <div>
+            <h1>Контакти</h1>
+            <p>Зв'язатися з нами можна за допомогою форми або за телефонами:</p>
+            <p>Телефон: +380 123 456 789</p>
+            <p>Email: info@kulinar-site.com</p>
+        </div>
+        
+        <div class="content_2">
+            <h2>Залиште повідомлення:</h2>
+            <form class="form_input" action="#" method="post">
+                <label for="name">Ваше ім'я:</label>
+                <p><input type="text" id="name" name="name" required></p>
+
+                <label for="email">Ваша електронна пошта:</label>
+                <p><input type="email" id="email" name="email" required></p>
+
+                <label for="password">Пароль</label>
+                <p><input type="password" id="password" name="password" required></p>
+
+                <label for="message">Повідомлення:</label>
+                <p><textarea id="message" name="message" rows="4" required></textarea></p>
+
+                <p><input type="checkbox" name="call_me" id="call_me"> Зателефонувати мені </p>
+
+                <p><input type="radio" name="gender" value="male"> Чоловік
+                   <input type="radio" name="gender" value="female"> Жінка</p>
+
+                <p><input type="date" name="birthday"> Дата нароження </p>
+
+                <p><input type="number" name="quantity" min="1" max="10">Кількість людей</p>
+
+                <p><input class="submit" type="submit" value="Надіслати"></p>
+            </form>
+        </div>
+    </div>
+    
+    <div class="back"><a href="#top">На гору</a></div>
+
+</body>
+</html>
